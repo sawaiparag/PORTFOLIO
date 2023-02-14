@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Roboto+Slab:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Kanit:wght@200&family=Roboto+Slab:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Kanit:wght@200&family=Pacifico&family=Roboto+Slab:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    position: absolute;
+    background-color: rgb(255, 242, 242); 
+    /* font-family: 'Roboto Slab', serif; */
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    min-height: 100vh;
+    transition: transform 0.4s ease-in;
+}
+
+.sidebar nav{
+    padding: 30px;
+    margin-top: 20px;
+}
+.sidebar nav li {
+    list-style: none;
+    padding: 15px 0;
+  
+    }
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: #000;
+    
+}
+
+.main{
+    /* background-color: yellow; */
+    width: 85vw;
+    font-family: 'Roboto Slab', serif;
+}
+
+.container{
+    display: flex;
+    background-color: #dadada;
+}
+
+.projects{
+    margin-left: 10rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.card1{
+    margin-left: 3em;
+    margin-top: 1em;
+    height: 18rem;
+    width: 17rem;
+    background-color: #a1baff;
+    border-radius: 15px;
+    border-color: #000;
+}
+
+.card1 .img1{
+    width: 17rem;
+    border-top-right-radius:15px ;
+    border-top-left-radius:15px ;
+
+}
+
+.cardname{
+    margin-top: 0.5em;
+}
+
+.cardtec{
+    margin-top: 0.5em;
+    font-size: small;
+
+}
+.card1 button{
+    margin-top: 1em;
+    padding: 0.6em 1.8em;
+    border-radius: 15px;
+    background-color: #5009f7;
+    color: white;
+    font-weight: bolder;
+    border-color: #5009f7;
+
+}
+
+.cards{
+    display: flex;
+    gap: 39px;
+}
+.card1 .img2{
+    width: 17rem;
+    border-top-right-radius:15px ;
+    border-top-left-radius:15px ;
+
+}
+.card1 .img3{
+    border-top-right-radius:15px ;
+    border-top-left-radius:15px ;
+    width: 17rem ;
+    height: 9rem;
+}
+
+.card1 .img4{
+    border-top-right-radius:15px ;
+    border-top-left-radius:15px ;
+    width: 17rem ;
+    height: 9rem;
+}
+
+.card1 .img3{
+    border-top-right-radius:15px ;
+    border-top-left-radius:15px ;
+    width: 17rem ;
+    height: 9rem;
+}
+
+
+.card1 .img4{
+    border-top-right-radius:15px ;
+    border-top-left-radius:15px ;
+    width: 17rem ;
+    height: 9rem;
+}
+
+
+.card1 .img5{
+    border-top-right-radius:15px ;
+    border-top-left-radius:15px ;
+    width: 17rem ;
+    height: 9rem;
+}
+
+.card1 .img6{
+    border-top-right-radius:15px ;
+    border-top-left-radius:15px ;
+    width: 17rem ;
+    height: 9rem;
+}
+
+.card1 .img7{
+    border-top-right-radius:15px ;
+    border-top-left-radius:15px ;
+    width: 17rem ;
+    height: 9rem;
+}
+
+
+.card1 .img8{
+    border-top-right-radius:15px ;
+    border-top-left-radius:15px ;
+    width: 17rem ;
+    height: 9rem;
+}
+
+.card1 .img9{
+    border-top-right-radius:15px ;
+    border-top-left-radius:15px ;
+    width: 17rem ;
+    height: 9rem;
+}
+
+.card1 .img10{
+    border-top-right-radius:15px ;
+    border-top-left-radius:15px ;
+    width: 17rem ;
+    height: 9rem;
+}
+
+
+.card1 .img11{
+    border-top-right-radius:15px ;
+    border-top-left-radius:15px ;
+    width: 17rem ;
+    height: 9rem;
+}
+
+.card1 .img12{
+    border-top-right-radius:15px ;
+    border-top-left-radius:15px ;
+    width: 17rem ;
+    height: 9rem;
+}
+.card1 .img13{
+    border-top-right-radius:15px ;
+    border-top-left-radius:15px ;
+    width: 17rem ;
+    height: 9rem;
+}
+
+
+.card1 .img14{
+    border-top-right-radius:15px ;
+    border-top-left-radius:15px ;
+    width: 17rem ;
+    height: 9rem;
+}
+
+.card1 .img15{
+    border-top-right-radius:15px ;
+    border-top-left-radius:15px ;
+    width: 17rem ;
+    height: 9rem;
+}
+
+.clonecard{
+    display: flex;
+    gap: 70px;
+    margin-left: 10rem;
+    margin-top: 1rem;
+}
+
+.clonerode{
+    margin-top: 3rem;
+    margin-left: 22rem;
+}
+
+.reathead{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.cardname1{
+    font-size: 132%;
+    margin-top: 1rem;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.infoContainer{
+    /* background-color: green; */
+    height: 68vh ;
+    
+    margin: 104px auto;
+    padding: 10px;    
+}
+
+.devinfo{
+    font-size: 26px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 150px;  
+}
+
+.hello{
+    font-size: 3em;
+}
+
+.name{
+    font-size: 3em;
+}
+
+.devinfo .about{
+    font-size: 1em;
+}
+
+
+
+.buttons button{
+    padding: 7px;
+    border-radius: 13px;
+    margin-top: 1.5em;
+    color: #000;
+    background-color: #a1baff;
+    border-color: #a1baff;
+    font-size:1em;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.buttons button a{
+    text-decoration: none;
+}
+
+
+.buttons button:hover{
+    color: #fd1818;
+    background-color: #fff;
+   
+}
+
+.about{
+    font-family: 'Roboto Slab', serif;
+    font-size: medium;
+}
+
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: #fd1818;
+    border: 2px #000;
+    margin-top: 8px;
+     margin-left: 5px;
+     
+}
+
+.skillitem{
+    display: flex;
+    padding: 0.2rem;
+}
+
+.hundred{
+    width: 265px;    
+}
+
+
+.fifty{
+    width: 205px;  
+    background-color: hwb(239 5% 0% / 0.259);  
+}
+
+
+.twentyfive{
+    width: 165px;
+    background-color: hwb(239 5% 0% / 0.259); 
+
+}
+
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 15px;
+    left: 10px;
+}
+
+.cross{
+    margin-left: 220px;
+}
+
+
+.sidebargo{
+    transform: translate(-343px, 0px);
+    position: absolute;
+}
+
+.aboutme{
+    margin-left: 8rem;
+    margin-top: 2rem;
+    font-family: 'Roboto Slab', serif;
+    font-size: larger;
+}
+
+.aboutpara{
+    margin-top: 1rem;
+    font-family: 'Pacifico', cursive;
+    font-size: large;
+    font-weight: 100;
+}
+
+.aboutpara .aboutspecial{
+    color: #aa93ff;
+    font-family: 'Pacifico', cursive;
+    font-size: large;
+}
+
+.skillls{
+    margin-top: 1.5rem;
+}
+
+.cv{
+    width: 118%; 
+    height: 400%;
+    border: none;
+}
+
+@media(max-width:1315px){
+    /* *{
+        background-color: #fd1818;
+    }
+
+    .sidebar{
+        transform: translate(-343px, 0px);
+        position: absolute;
+    } */
+
+    .buttons{
+        font-size: 10px;
+        
+    }
+    .devinfo, .about {
+      font-size: 10px;
+      margin-left: 4em   ;  
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+        margin-left: -8rem;
+    }
+
+    .clonecard{
+        display: flex;
+        flex-direction: column;
+        margin-left: -8rem;
+        margin-top: 1 rem;
+    }
+
+    .clonerode{
+        margin-top: 5rem;
+        margin-left: -8rem;
+
+    }
+
+    .aboutme{
+        margin-left: 4rem;
+        margin-top: 2rem;
+    }
+
+    .cv{
+        width: 120%; 
+        height: 100%;
+        border: none;
+    }
+
+
+
+}
