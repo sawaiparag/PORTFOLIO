@@ -310,7 +310,7 @@
     height: 6px;
     background-color: #fd1818;
     border: 2px #000;
-    margin-top: 8px;
+    margin-top: 11px;
      margin-left: 5px;
      
 }
@@ -321,19 +321,20 @@
 }
 
 .hundred{
-    width: 265px;    
+    width: 265px;
+    background-color: #00f100;    
 }
 
 
 .fifty{
-    width: 205px;  
-    background-color: hwb(239 5% 0% / 0.259);  
+    width: 145px;  
+    background-color: rgb(161, 205, 255);  
 }
 
 
-.twentyfive{
-    width: 165px;
-    background-color: hwb(239 5% 0% / 0.259); 
+.seventyfive{
+    width: 205px;
+    background-color: #70ffcff3; 
 
 }
 
@@ -399,9 +400,13 @@
         font-size: 10px;
         
     }
-    .devinfo, .about {
-      font-size: 10px;
-      margin-left: 4em   ;  
+    .devinfo{
+      font-size: 12px;
+      margin-left: 1.5em;  
+    }
+
+    .devinfo .about{
+        margin-left: 0.5em;
     }
 
     .cards{
@@ -434,6 +439,10 @@
         border: none;
     }
 
-
+    .projects h1{
+        text-align: center;
+        margin-top: 2rem;
+        margin-left: -3em;
+    }
 
 }
