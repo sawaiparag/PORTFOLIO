@@ -6,11 +6,20 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
 
 .sidebar{
     position: absolute;
-    background-color: rgb(255, 242, 242); 
+    background-color: rgb(165, 165, 165); 
     /* font-family: 'Roboto Slab', serif; */
     font-family: 'Caveat', cursive;
     font-size: 30px;
@@ -42,8 +51,10 @@
 
 .container{
     display: flex;
-    background-color: #dadada;
+    position: absolute;
+    color: #013cffe8;
 }
+
 
 .projects{
     margin-left: 10rem;
@@ -56,7 +67,7 @@
     margin-top: 1em;
     height: 18rem;
     width: 17rem;
-    background-color: #a1baff;
+    background-color: #c2c2c2;
     border-radius: 15px;
     border-color: #000;
 }
@@ -215,8 +226,8 @@
 }
 
 .clonerode{
-    margin-top: 3rem;
-    margin-left: 22rem;
+    margin-left: 19rem;
+    padding: 3rem;
 }
 
 .reathead{
@@ -264,7 +275,8 @@
 }
 
 .hello{
-    font-size: 3em;
+    font-size: 2em;
+    color: #ea02ff;
 }
 
 .name{
@@ -273,29 +285,31 @@
 
 .devinfo .about{
     font-size: 1em;
+    color: springgreen;
 }
-
 
 
 .buttons button{
     padding: 7px;
     border-radius: 13px;
     margin-top: 1.5em;
-    color: #000;
-    background-color: #a1baff;
-    border-color: #a1baff;
+    color: #f80000;
+    background-color: #07080a;
+    border-color: #ffffff;
     font-size:1em;
     font-weight: bolder;
     cursor: pointer;
+    
 }
 
 .buttons button a{
     text-decoration: none;
+    
 }
 
 
 .buttons button:hover{
-    color: #fd1818;
+    color: #fc0505;
     background-color: #fff;
    
 }
@@ -303,6 +317,7 @@
 .about{
     font-family: 'Roboto Slab', serif;
     font-size: medium;
+    
 }
 
 .skill{
@@ -318,6 +333,7 @@
 .skillitem{
     display: flex;
     padding: 0.2rem;
+    color: white;
 }
 
 .hundred{
@@ -361,6 +377,8 @@
     margin-top: 2rem;
     font-family: 'Roboto Slab', serif;
     font-size: larger;
+    color: white;
+    position: relative;
 }
 
 .aboutpara{
@@ -368,6 +386,7 @@
     font-family: 'Pacifico', cursive;
     font-size: large;
     font-weight: 100;
+    color: white;
 }
 
 .aboutpara .aboutspecial{
@@ -385,6 +404,21 @@
     height: 400%;
     border: none;
 }
+
+.footer{
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    gap: 4em;
+    padding: 2em;
+    
+}
+
+.linkedin{
+    width: 2em;
+}
+
 
 @media(max-width:1315px){
     /* *{
@@ -412,24 +446,25 @@
     .cards{
         display: flex;
         flex-direction: column;
-        margin-left: -8rem;
+        margin-left: -6rem;
     }
 
     .clonecard{
         display: flex;
         flex-direction: column;
-        margin-left: -8rem;
+        margin-left: -6rem;
         margin-top: 1 rem;
     }
 
     .clonerode{
         margin-top: 5rem;
-        margin-left: -8rem;
+        margin-left: -6rem;
+        
 
     }
 
     .aboutme{
-        margin-left: 4rem;
+        margin-left: 5rem;
         margin-top: 2rem;
     }
 
@@ -442,7 +477,17 @@
     .projects h1{
         text-align: center;
         margin-top: 2rem;
-        margin-left: -3em;
+        margin-left: -4em;
+    }
+
+    .footer{
+        font-family: 'Roboto Slab', serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center ;
+        gap: 2em;
+        padding: 2em;
     }
 
 }
