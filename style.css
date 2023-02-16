@@ -317,7 +317,7 @@
 .about{
     font-family: 'Roboto Slab', serif;
     font-size: medium;
-    
+    color: #48ff00;
 }
 
 .skill{
@@ -333,7 +333,7 @@
 .skillitem{
     display: flex;
     padding: 0.2rem;
-    color: white;
+    color: #00ffdd;
 }
 
 .hundred{
@@ -350,7 +350,7 @@
 
 .seventyfive{
     width: 205px;
-    background-color: #70ffcff3; 
+    background-color: #ffc401f3; 
 
 }
 
@@ -377,7 +377,7 @@
     margin-top: 2rem;
     font-family: 'Roboto Slab', serif;
     font-size: larger;
-    color: white;
+    color: #ff0000;
     position: relative;
 }
 
@@ -386,7 +386,7 @@
     font-family: 'Pacifico', cursive;
     font-size: large;
     font-weight: 100;
-    color: white;
+    color: #0011ff;
 }
 
 .aboutpara .aboutspecial{
@@ -412,11 +412,26 @@
     justify-content: center ;
     gap: 4em;
     padding: 2em;
-    
+    margin-top: -8em;
+}
+
+.footerclone{
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    gap: 4em;
+    padding: 2em;
 }
 
 .linkedin{
     width: 2em;
+}
+
+.me{
+    
+    margin-left: -25em;
+    margin-top: -5em;
 }
 
 
